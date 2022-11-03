@@ -1,0 +1,134 @@
+.createForm {
+  padding-top: 50px;
+}
+
+.createForm-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quiz-name-form {
+  margin: 60px;
+  display: flex;
+  align-items: flex-start;
+}
+::placeholder {
+  font-size: 20px;
+}
+
+.createForm-questions {
+  font-size: large;
+}
+.createForm-footer {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createForm-footer-right {
+  flex: 1;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.createForm-footer-left {
+  flex: 1;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.createForm-footer-btn {
+  font-size: 18px;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 12px;
+  margin: 10px 0 0 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 12px 25px;
+}
+.modal-form {
+  /* margin: 10px; */
+  background-color: rgb(248, 251, 252);
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  justify-content: space-between;
+}
+
+.modal-form-question {
+  background-color: rgb(248, 251, 252);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+.modal-form-answers {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.modal-form-answers-btn {
+  font-size: 18px;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 12px;
+  margin: 10px 0 0 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 15px;
+}
+.Modal-footer {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  column-gap: 150px;
+}
+.modal-form-answers-btn-remove {
+  font-size: 10px;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 12px;
+  margin: 10px 0 0 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 5px 5px;
+}
+.modal-form-display-answers {
+  list-style: circle;
+}
+.modal-form-display-answers-answer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+.modal-form-display-answers-answer-li {
+  font-size: 30px;
+}
+.modal-form-display-answers-answer-li span {
+  font-size: 20px;
+}
+
+.modal-form-display-answers-answer-li-selected {
+  list-style-type: square;
+  font-size: 30px;
+}
+.modal-form-display-answers-answer-li-selected span {
+  font-size: 20px;
+}

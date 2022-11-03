@@ -1,0 +1,10 @@
+/* .main-container {
+  background-image: url("https://t4.ftcdn.net/jpg/04/39/13/37/240_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg");
+} */
+
+.main-container {
+  background-image: url("./../public//assets/Background.jpg");
+  /* padding: 1rem; */
+  background-size: cover;
+  height: 100vh;
+}

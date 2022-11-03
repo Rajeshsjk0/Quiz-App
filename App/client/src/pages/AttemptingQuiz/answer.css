@@ -1,0 +1,18 @@
+.answer {
+  width: 48%;
+  background: #fff;
+  border: 2px solid #0094da;
+  min-height: 70px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.answer-text {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}

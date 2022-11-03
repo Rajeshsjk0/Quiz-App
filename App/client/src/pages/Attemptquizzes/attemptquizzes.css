@@ -1,0 +1,30 @@
+.attemptquizzes-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin: 20px;
+}
+
+.attemptquizzes-img {
+  width: 250px;
+  height: 250px;
+}
+.attemptquizzes-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attemptquizzes-link {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 25px;
+  color: white;
+  background-color: #e67e22;
+  border-radius: 12px;
+  text-decoration: none;
+  /* margin: 10px 0 0 0; */
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
